@@ -7,7 +7,6 @@
     Checks faces and prints recognized faces if they have an accuracy of less than 80
     Face is true if one face id and score of less than 40 is detected 20+ frames in a row
 
-
 """
 
 from threading import Thread
@@ -15,10 +14,12 @@ from time import sleep
 from recognition import Recognition
 from cv2_video import CV2Video
 from lock import Solenoid
+from firebase import Firebase
+
+fb = Firebase()
 
 # Face check class
 class FaceCheck(Thread):
-
     # Initializing Lock object
     lock = Solenoid()
     # Initializing perform action variable
@@ -32,6 +33,7 @@ class FaceCheck(Thread):
     # Private variable for face id
     _id = 0
     _counter_seconds = 5
+    global threshold
 
     # Function to start a counter that counts to 5 1 second at a time
     def counter(self):
@@ -55,7 +57,7 @@ class FaceCheck(Thread):
                     self._face = False
                     print(self._face)
                     break
-                elif self._id == res[0] and res[1] > 60:
+                elif self._id == res[0] and res[1] > 80:
                     self._face = False
                     print(self._face)
                     break
@@ -73,9 +75,16 @@ class FaceCheck(Thread):
     # Function to run face check and unlock door if faces meet the criteria of true greater than 20 frames in a row
     def run(self):
         while True:
+            # Firebase reference
+            data = fb.get_data()
+            # setting timer variable to firebase timer value
+            threshold = data['doorbell']['facial_recognition']['threshold']
+            print(threshold)
             # If face check is turned on and camera is off, start capturing video from camera
             if self.perform_action is True and self.using_camera is False:
                 self.capture_camera()
+
+
             # If face check if off and camera instance is on, release camera
             elif self.perform_action is False and self.using_camera is True:
                 self.release_camera()
@@ -84,8 +93,10 @@ class FaceCheck(Thread):
             if self.using_camera is True:
                 # set face recognizer values[ID, accuracy] to res
                 res = Recognition.recognize()
-                # If res is not None and accuracy is less than 70
-                if res is not None and res[1] < 70:
+                print(res)
+                #print(threshold)
+                # If res is not None and accuracy is less than threshold
+                if res is not None and res[1] < threshold:
                     # Set id to res id
                     self._id = res[0]
                     # Set face to true
@@ -99,7 +110,7 @@ class FaceCheck(Thread):
                     # Release the camera
                     self.release_camera()
                     # If face is true for 20 frames that are detected in a row
-                    if self._face is True and self._frames_checked >= 10:
+                    if self._face is True and self._frames_checked >= 20:
                         # unlock door
                         self.lock.unlock_door()
                         print(self._id)

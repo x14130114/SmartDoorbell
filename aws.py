@@ -39,28 +39,32 @@ class AWS:
         subprocess.call('nohup gst-launch-1.0 -v v4l2src device=/dev/video0 ! videoconvert ! video/x-raw,width=640,'
                         'height=480,framerate=30/1,format=I420 ! omxh264enc periodicty-idr=45 inline-header=FALSE ! '
                         'h264parse ! video/x-h264,stream-format=avc,alignment=au,profile=baseline ! kvssink name=sink '
-                        'stream-name="<STREAM-NAMW>" access-key="<ACCESS-KEY>" '
-                        'secret-key="<SECRET-ACCESS-KEY>" '
+                        'stream-name="<STREAM-NAME>" access-key="<ACCESS-KEY>" '
+                        'secret-key="<SECRET-KEY>" '
                         'alsasrc device=hw:2,0 ! audioconvert ! avenc_aac ! queue ! sink. >/dev/null 2>&1 &', shell=True)
         # Subprocess to use bash command to get the process id for a process named 'gst-launch-1.0'
         get_pid = subprocess.Popen("ps aux | pgrep gst-launch-1.0", shell=True, stdout=subprocess.PIPE).stdout
         self._pid = get_pid.read()
         print("My process id is %s" % self._pid.decode())
         sleep(3)
+
         STREAM_NAME = "<STREAM-NAME>"
         # Using Boto3 to access Amazon Kinesis Video API
         kvs = boto3.client("kinesisvideo")
+
         # Get the data end point of the stream
         endpoint = kvs.get_data_endpoint(
             APIName="GET_HLS_STREAMING_SESSION_URL",
             StreamName=STREAM_NAME
         )['DataEndpoint']
+
         # Get the HLS Stream URL using the endpoint
         kvam = boto3.client("kinesis-video-archived-media", endpoint_url=endpoint)
         url = kvam.get_hls_streaming_session_url(
             StreamName=STREAM_NAME,
             PlaybackMode="LIVE"
         )['HLSStreamingSessionURL']
+
         print(url)
         # Update Firebase database with the Live Stream HLS URL
         self._fb.update_data({

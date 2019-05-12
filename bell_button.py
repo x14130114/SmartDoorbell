@@ -22,14 +22,12 @@ from threading import Thread
 class BellButton(Thread):
     # connecting to push bullet api
     _pb = Pushbullet("<API-KEY>")
-    # push = pb.push_note("Title","body")
 
-    # check the available devices
+    # print the available devices
     print(_pb.devices)
     # set your device
     _huawei = _pb.get_device('<DEVICE-NAME>')
 
-    # now = datetime.now()
     # Setting Button to GPIO Pin 18
     button = Button(18)
     filename = ''
@@ -41,11 +39,11 @@ class BellButton(Thread):
         if self.aws.is_active is False and self.nf.is_active is False:
             # Turn Facial recognition off - releasing camera
             self.switch_face_check_off()
-            time.sleep(2)
+            time.sleep(.2)
             print('taking pictures')
             global filename
             camera = PiCamera()
-            # Change this naming convention as it is not working
+            # Setting the filename and extension
             filename = 'bell.jpg'
             camera.resolution = (800, 600)
             # Capture image from PiCam and store it in location with the file name
@@ -54,7 +52,7 @@ class BellButton(Thread):
             camera.close()
             # Run the push notification function
             BellButton.push_notification(self)
-            time.sleep(1)
+            time.sleep(.2)
             # Turn Facial recognition on
             self.switch_face_check_on()
 
@@ -71,7 +69,7 @@ class BellButton(Thread):
         while True:
             btn = self.button.value
             if btn is True:
-                os.system("omxplayer doorbell-6.mp3")
+                os.system("omxplayer ding-dong-1.8.mp3")
                 self.take_photo()
 
     # Constructor to initialize other class instances

@@ -26,10 +26,9 @@ class Firebase:
         "projectId": "<PROJECT-ID>",
         "storageBucket": "<STORAGE-BUCKET>",
         "messagingSenderId": "<SENDER-ID>",
-        "serviceAccount": "<FILEPATH TO KEY.JSON>"
+        "serviceAccount": "<PATH-TO-KEY.JSON>"
     }
-
-    # login credentials as private access vars
+    # Firebase login
     _login = "<USERNAME>"
     _password = "<PASSWORD>"
 
