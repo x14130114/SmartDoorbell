@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa0a042e-79a4-4d10-adcf-ff1fd3d55d27" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws.py" beforeDir="false" afterPath="$PROJECT_DIR$/aws.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv2_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/cv2_video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facial_recogniton.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase.py" beforeDir="false" afterPath="$PROJECT_DIR$/firebase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/key.json" beforeDir="false" afterPath="$PROJECT_DIR$/key.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_face.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_face.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/17914/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/21427/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/25275/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/73534/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/86002/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/90788/9.jpg" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DoorFinal$app.coverage" NAME="app Coverage Results" MODIFIED="1557259491061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new_face.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="9" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recognition.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cv2_video.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/check_face.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="10" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bell_button.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lock.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="8" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aws.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cv2_video</find>
+      <find>using</find>
+      <find>print</find>
+      <find>is</find>
+      <find>is_active</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/aws_stream.py" />
+        <option value="$PROJECT_DIR$/listen.py" />
+        <option value="$PROJECT_DIR$/s.sh" />
+        <option value="$PROJECT_DIR$/work.py" />
+        <option value="$PROJECT_DIR$/face_training.py" />
+        <option value="$PROJECT_DIR$/face_recognise.py" />
+        <option value="$PROJECT_DIR$/cv2.py" />
+        <option value="$PROJECT_DIR$/facial_recogniton.py" />
+        <option value="$PROJECT_DIR$/HLSurl.py" />
+        <option value="$PROJECT_DIR$/../PycharmProjects/IoTDoorbell/SPdoorbell/control.py" />
+        <option value="$PROJECT_DIR$/app1.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/../cleaniot/check_face.py" />
+        <option value="$PROJECT_DIR$/bell.py" />
+        <option value="$PROJECT_DIR$/cv2_video.py" />
+        <option value="$PROJECT_DIR$/firebase.py" />
+        <option value="$PROJECT_DIR$/aws.py" />
+        <option value="$PROJECT_DIR$/bell_button.py" />
+        <option value="$PROJECT_DIR$/key.json" />
+        <option value="$PROJECT_DIR$/lock.py" />
+        <option value="$PROJECT_DIR$/new_face.py" />
+        <option value="$PROJECT_DIR$/recognition.py" />
+        <option value="$PROJECT_DIR$/check_face.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="2800" />
+    <option name="height" value="1840" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DoorFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoorFinal" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bMC\DoorFinal" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DoorFinal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa0a042e-79a4-4d10-adcf-ff1fd3d55d27" name="Default Changelist" comment="" />
+      <created>1556903822082</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556903822082</updated>
+      <workItem from="1556903825983" duration="1318000" />
+      <workItem from="1556906343979" duration="93617000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="94935000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21580756" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32977462" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="File Transfer" order="9" visible="true" weight="0.3084223" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21580756" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32977462" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.3084223" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../cleaniot/new_face.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facial_recogniton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1112">
+          <caret line="100" column="23" lean-forward="true" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HLSurl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="e#1#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/55494/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/55494/11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/18466/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/21594/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cascades/haarcascade_frontalface_default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/56978/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/14665/0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/14665/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/56978/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/14665/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/14665/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/14665/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/56978/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trainer.yml">
+      <provider editor-type-id="LargeFileEditor">
+        <state relative-caret-position="306">
+          <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="77" column="60" lean-forward="true" selection-start-line="77" selection-start-column="60" selection-end-line="77" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/56978/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/45106/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/54849/0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/71743/0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/71743/25.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/71743/28.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/71743/29.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/73345/0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/73345/16.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/73345/28.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/73345/29.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/45106/10.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/46748/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/46748/9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/46748/13.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/46748/16.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/46748/19.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/46748/18.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cleaniot/bell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/46748/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.PyCharm2018.3/system/remote_sources/-956143870/201545290/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="825" column="8" selection-start-line="825" selection-start-column="8" selection-end-line="825" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firebase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/key.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cv2_video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_face.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bell_button.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check_face.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
