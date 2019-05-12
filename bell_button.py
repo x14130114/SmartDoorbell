@@ -34,7 +34,7 @@ class BellButton(Thread):
     button = Button(18)
     filename = ''
 
-    # Function to take photo using the PiCam and run the push_notificarion function
+    # Function to take photo using the PiCam and run the push_notification function
     # Function only runs if AWS stream and Adding new faces is not already in use
     def take_photo(self):
 
@@ -49,7 +49,7 @@ class BellButton(Thread):
             filename = 'bell.jpg'
             camera.resolution = (800, 600)
             # Capture image from PiCam and store it in location with the file name
-            camera.capture('/home/pi/PyCharms/DoorFinal/' + (filename))
+            camera.capture('/home/pi/PyCharms/DoorFinal/' + filename)
             # Close the camera instance - releasing camera
             camera.close()
             # Run the push notification function
@@ -71,7 +71,7 @@ class BellButton(Thread):
         while True:
             btn = self.button.value
             if btn is True:
-                # os.system("omxplayer bell.mp3")
+                os.system("omxplayer doorbell-6.mp3")
                 self.take_photo()
 
     # Constructor to initialize other class instances
